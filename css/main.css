@@ -28,7 +28,6 @@ h1  {
 .mainContain  {
   display: block;
   max-width: 1001px;
-  border: 1x dotted white;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,39 +40,39 @@ main .row {
   margin-bottom: 20px;
 }
 
-.box {
+.cardBox {
   height: 400px;
-  text-align: center;
-  padding-top: 0px;
   margin-top: 20px;
 }
 
-.black {
+/*.black {
   background-color: black;
   color: white;
 }
 
-.green/*, .boxThree*/ {
+.green {
   background-color: green;
 }
 
-.orange/*, .boxOne*/ {
+.orange {
   background-color: orange;
 }
 
-.blue/*, .boxTwo*/ {
+.blue {
   background-color: blue;
-}
+}*/
+
+/* What I had before:
 
 .cardBox  {
   display: block;
   position: relative;
-  width: 90%;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   background-color: white;
-}
+}*/
 
 .yoda {
   display: block;
@@ -95,6 +94,30 @@ main .row {
   display: block;
   position: relative;
   background-image: url(../images/finn_weird.jpeg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.poe  {
+  display: block;
+  position: relative;
+  background-image: url(../images/poe_square.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kylo {
+  display: block;
+  position: relative;
+  background-image: url(../images/kylo_square.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.chew {
+  display: block;
+  position: relative;
+  background-image: url(../images/chewbacca_square.png); 
   background-size: cover;
   background-repeat: no-repeat;
 }
