@@ -83,6 +83,22 @@ main .row {
   background-repeat: no-repeat;
 }
 
+.rey {
+  display: block;
+  position: relative;
+  background-image: url(../images/rey_weird.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.finn {
+  display: block;
+  position: relative;
+  /*background-image: url(../images/finn_square.png);*/ 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .cardLabel  {
   display: block;
   background-color: white;
@@ -102,7 +118,7 @@ main .row {
   padding-top: 20px;*/
 }
 
-.charName {
+.cardName {
   font-weight: 900;
   font-size: 22px;
 }
