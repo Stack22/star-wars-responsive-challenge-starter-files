@@ -78,5 +78,7 @@ main .row {
 .yoda {
   display: block;
   position: relative;
-  width: 100%;
+  background-image: url(../images/yoda.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
