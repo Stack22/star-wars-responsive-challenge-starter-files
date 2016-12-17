@@ -42,9 +42,9 @@ main .row {
 }
 
 .box {
-  height: 200px;
+  height: 400px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 0px;
   margin-top: 20px;
 }
 
@@ -63,4 +63,20 @@ main .row {
 
 .blue/*, .boxTwo*/ {
   background-color: blue;
+}
+
+.cardBox  {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.yoda {
+  display: block;
+  position: relative;
+  width: 100%;
 }
