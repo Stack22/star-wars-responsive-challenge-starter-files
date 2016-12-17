@@ -94,7 +94,7 @@ main .row {
 .finn {
   display: block;
   position: relative;
-  /*background-image: url(../images/finn_square.png);*/ 
+  background-image: url(../images/finn_weird.jpeg); 
   background-size: cover;
   background-repeat: no-repeat;
 }
