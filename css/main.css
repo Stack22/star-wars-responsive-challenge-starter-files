@@ -134,7 +134,7 @@ main .row {
   padding: 5px 20px;
 }
 
-.cardText, .charName  {
+.cardText, .cardName  {
   font-family: 'Roboto Condensed', sans-serif;
   text-indent: 40px;
   text-align: left;
