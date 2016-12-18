@@ -126,6 +126,7 @@ main .row {
 .cardLabel  {
   display: block;
   background-color: white;
+  opacity: 0.7;
   position: relative;
   width: 100%;
   height: 20%;
